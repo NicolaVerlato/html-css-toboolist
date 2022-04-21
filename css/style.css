@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #f5f8f9;
+}
+header{
+    background-color: white;
+}
+
 /* header */
 header{
     padding: 10px;
@@ -16,4 +23,34 @@ header{
     vertical-align: middle;
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main */
+.contenitore{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-top: 5%;
+}
+.contenitore-main{
+    width: 90;
+    margin: auto;
+    padding: 15px 30px;
+}
+.bottone{
+    display: inline-block;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: lightgrey;
+    padding: 5px;
+    color: gray;
+}
+.bottone-blu{
+    background-color: #46acea;
+    color: white;
+    border-color: #46acea;
+}
+hr{
+    border: 1px solid #f5f8f9;
 }
