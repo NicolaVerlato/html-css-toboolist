@@ -7,6 +7,7 @@
 
 body{
     background-color: #f5f8f9;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
     background-color: white;
@@ -22,7 +23,6 @@ header{
 .titolo{
     vertical-align: middle;
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* main */
@@ -37,6 +37,8 @@ header{
     margin: auto;
     padding: 15px 30px;
 }
+
+/* bottoni */
 .bottone{
     display: inline-block;
     border-style: solid;
@@ -53,4 +55,55 @@ header{
 }
 hr{
     border: 1px solid #f5f8f9;
+}
+
+/* elenco */
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 15px;
+}
+.today{
+    margin-top: 25px;
+}
+.upcoming{
+    margin-top: 25px;
+}
+.macro-option{
+    font-weight: 800;
+}
+.check{
+    border-color: black;
+    border-radius: 50%;
+    color: #73c7b3;
+    font-size: 12px;
+}
+.cross{
+    border-radius: 50%;
+    color: red;
+    font-size: 8px;
+}
+.categoria{
+    border-radius: 10px;
+    background-color: #46acea;
+    padding: 7px;
+    color: white;
+    font-size: 10px;
+    vertical-align: middle;
+}
+.viola{
+    background-color: #9c72e4;
+}
+.verde{
+    background-color: #64c0a9;
+}
+.arancio{
+    background-color: #f29e33;
+}
+.rosa{
+    background-color: #d863a1;
+}
+.verde-pisello{
+    background-color: #b0c924;
 }
